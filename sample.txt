@@ -1,0 +1,28 @@
+<i>jsvi</i> is a vi-clone written in pure javascript and should work
+in any modern web-browser.
+
+If you don't know vi, you can use the arrow-keys as well to scroll
+around this document.
+
+<i>jsvi</i> has a finger-feel of vi, supports a number of ed/ex commands,
+is unicode-aware, supports real-time, check-as-you-type spell checking,
+a small subset of HTML for useful for physical markup of text, and host
+clipboard integration.
+
+It is <b>not</b> based on the so-called "Rich Editor" that is
+built into modern Firefox builds, and MSIE, and as a result, works
+reliably on Safari and Opera.
+
+There <i>are</i> inttentional misspellingss in this document;
+you can double-click on a misspelling to see suggestions.
+
+If you don't know vi, you can start making changes to this document
+by entering <b>-- INSERT --</b> mode, with:
+     i   insert before the current character
+     a   append (insert) after the current character
+     o   insert after the current line
+     O   insert before the current line
+     I   insert at the beginning of the current line
+     A   insert at the end of the current line
+You can return to command mode by pressing <b>Esc</b>ape, or if you
+do not have one, holding down <b>Ctrl</b> and pressing <b>[</b>

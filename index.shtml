@@ -1,0 +1,11 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?xml version="1.0" encoding="utf-8" ?>
+<html lang="en">
+<head>
+<script src="vi.js"></script>
+<link rel="stylesheet" href="vi.css" type="text/css" />
+</head>
+<body><form>
+<textarea name="body" onfocus="editor(this);"><!--#include virtual="sample.txt" --></textarea> &lt;- That's a text area. Give it focus... or <a href="" onclick="editor(document.forms[0].elements.body);return false;">launch vi</a>
+</form></body>
+</html>
